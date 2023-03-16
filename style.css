@@ -4,21 +4,24 @@
   box-sizing: border-box;
   color: #6c6b6b;
 }
-
-.header{
-    display:auto;
-    background-color:#EC715F;
-    height:1024px;
-    width:70px;
+a {
+  text-decoration: none;
 }
 
-.nav-item{
+
+header{
+    background-color:#EC715F;
+    width:100%;
     height:70px;
 }
 
+
 .nav-list{
-    style:none;
-    margin:30px;
+    list-style: none;
+    display:flex;
+    justify-content: flex-end; 
+    text-align:center;
     font-size:16px;
     color:#FAFAFA;
+    margin:0 30px;
 }
